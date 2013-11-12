@@ -1,0 +1,2 @@
+Router.configure
+  layoutTemplate: 'layoutMain'
