@@ -48,7 +48,7 @@ The <code>/client</code>, <code>/server</code>, and <code>/lib</code> folders pr
    - app.less - Default less file with basic less organization comments, default media queries, and bootstrap imports
    - variables.less - A bootstrap 3 variables less file you can use to overwrite the default bootstrap variables. Imported into the app.less file for variable use within your custom less
  - /views - Holds folders of your applications views
-   - sample
+   - /sample
      - sample.coffee - Example view file that defines a default route
      - sample.html - Example default template that the sample.coffee route yields
  - main.html - Basic app html file with a default layout defined
