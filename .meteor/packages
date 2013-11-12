@@ -10,3 +10,4 @@ preserve-inputs
 less
 jquery
 iron-router
+coffeescript
