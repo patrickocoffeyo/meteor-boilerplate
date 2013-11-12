@@ -5,7 +5,8 @@
       "iron-router": {},
       "bootstrap3-less": {},
       "font-awesome-4": {},
-      "flash-messages": {}
+      "flash-messages": {},
+      "collection2": {}
     },
     "packages": {
       "iron-router": {
@@ -27,6 +28,16 @@
         "git": "https://github.com/camilosw/flash-messages.git",
         "tag": "v0.2.1",
         "commit": "62cf1ee531684808b91dbe3ff15e63f6d5af1c66"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.2.11",
+        "commit": "34ea61718c8826dfa9236222cec6c097bd41ae6b"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.2.16",
+        "commit": "fae2b014ffc26dfccd3aab38e45d60dda34fd03c"
       }
     }
   }

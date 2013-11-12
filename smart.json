@@ -3,6 +3,7 @@
     "iron-router": {},
     "bootstrap3-less": {},
     "font-awesome-4": {},
-    "flash-messages": {}
+    "flash-messages": {},
+    "collection2": {}
   }
 }
