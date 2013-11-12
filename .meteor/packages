@@ -9,3 +9,4 @@ insecure
 preserve-inputs
 less
 jquery
+iron-router
