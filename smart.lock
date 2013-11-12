@@ -7,7 +7,8 @@
       "font-awesome-4": {},
       "flash-messages": {},
       "collection2": {},
-      "autoform": {}
+      "autoform": {},
+      "roles": {}
     },
     "packages": {
       "iron-router": {
@@ -39,6 +40,11 @@
         "git": "https://github.com/aldeed/meteor-autoform.git",
         "tag": "v0.4.1",
         "commit": "5f07277746fb8cf9c938ed5c1382348fba8218d7"
+      },
+      "roles": {
+        "git": "https://github.com/alanning/meteor-roles.git",
+        "tag": "v1.0.6",
+        "commit": "f81cbf7c765a4ed7e16a580c288db6f10a90856b"
       },
       "simple-schema": {
         "git": "https://github.com/aldeed/meteor-simple-schema.git",
