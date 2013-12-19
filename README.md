@@ -58,7 +58,9 @@ The <code>/client</code>, <code>/server</code>, and <code>/lib</code> folders pr
  - **/lib**
    - **/collections** - Folder that contains collection definitions
      - **sample.coffee** - Defines a sample collection
- - **/Server/** - Server specific files
+ - **/public** - Contains all files served by applications.
+   - **/images** - Contains all images served by applications
+ - **/server/** - Server specific files
    - **/modules/** - Contains a directory for each module. Each module directory will have publication functions, allow/deny functions, and Meteor methods.
      - **/sample**
        - **sample.coffee** - Sample publication, allow/deny, and method functions.
