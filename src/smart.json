@@ -6,6 +6,7 @@
     "flash-messages": {},
     "collection2": {},
     "autoform": {},
-    "roles": {}
+    "roles": {},
+    "collection-helpers": {}
   }
 }
