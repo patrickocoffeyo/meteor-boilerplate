@@ -12,6 +12,9 @@ A client and server side router designed specifically for Meteor.
 ###[Collection 2](https://github.com/aldeed/meteor-collection2)
 A smart package for Meteor that extends Meteor.Collection to provide support for specifying a schema and then validating against that schema when inserting and updating. Also adds support for virtual fields.
 
+###[Collection Helpers](https://github.com/dburles/meteor-collection-helpers)
+Collection helpers automatically sets up a transformation on your collections allowing for simple models, with an interface similar to template helpers.
+
 ###[Autoform](https://github.com/aldeed/meteor-autoform)
 A smart package for Meteor that adds handlebars helpers to easily create basic forms with automatic insert and update events, and automatic reactive validation.
 
