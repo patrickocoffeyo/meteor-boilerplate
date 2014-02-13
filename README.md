@@ -34,7 +34,6 @@ Package for displaying flash messages to the user. This is based on the chapter 
 ##Core Packages
 meteor-boilerplate adds these meteor core packages by default:
 
- - autopublish
  - insecure
  - preserve-inputs
  - less
