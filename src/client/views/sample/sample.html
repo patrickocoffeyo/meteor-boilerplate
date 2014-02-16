@@ -4,4 +4,8 @@
   <p class="lead">This file is located in <code>/client/views/sample/sample.html</code>. The <code>sample.coffee</code> defines a route, and yields the <code>sample</code> template into the <code>layoutMain</code> layout template.</p>
 
   <p>Just delete this crap and start working.</p>
+
+  {{#each samples}}
+    <h3>{{title}}</h3>
+  {{/each}}
 </template>

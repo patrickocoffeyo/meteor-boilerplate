@@ -3,6 +3,8 @@ meteor-boilerplate
 
 This is a starting point for Meteor-based applications. It includes some useful packages, organization, and less setup.
 
+A very simple example of a meteor app built from this boilerplate is [OnTask](https://github.com/patrickocoffeyo/ontask).
+
 ##Atmosphere Packages
 Here's a list of packages installed by default from [Atmosphere](http://atmosphere.meteor.com):
 
