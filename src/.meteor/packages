@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
 insecure
 preserve-inputs
 less
@@ -13,10 +12,10 @@ iron-router
 coffeescript
 accounts-base
 bootstrap3-less
-font-awesome-4
 flash-messages
 collection2
 autoform
 underscore
 roles
 collection-helpers
+font-awesome-4-less
