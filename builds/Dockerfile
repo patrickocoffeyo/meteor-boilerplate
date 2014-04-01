@@ -1,6 +1,6 @@
 # Example Dockerfile for meteor
 # The following env vars are required (example values):
-# -e MONGO_URL=mongodb://172.17.42.1:27017/appname
+# -e MONGO_URL=mongodb://xxx.xx.xx.x:27017/appname
 # -e ROOT_URL=http://appurl.com
 # -e PORT=80
 # -e MAIL_URL=smtp://username:password@smtp.sendgrid.net:587
