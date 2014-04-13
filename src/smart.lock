@@ -14,48 +14,53 @@
     "packages": {
       "iron-router": {
         "git": "https://github.com/EventedMind/iron-router.git",
-        "tag": "v0.6.2",
-        "commit": "ce56e58b45624dce992490f3a1c10f10d3948bae"
+        "tag": "v0.7.0",
+        "commit": "05f34bc48c4cad9fdaa366c1ddcabe6980232ece"
       },
       "bootstrap3-less": {
         "git": "https://github.com/eprochasson/bootstrap3-less",
-        "tag": "v0.1.8",
-        "commit": "48b6db4435d9f01a1fcfe694a180b38e8e38835b"
+        "tag": "v0.1.9",
+        "commit": "5c812c4d7ce72917a065f0424c3cf54e5ff2d16a"
       },
       "flash-messages": {
         "git": "https://github.com/camilosw/flash-messages.git",
-        "tag": "v0.2.1",
-        "commit": "62cf1ee531684808b91dbe3ff15e63f6d5af1c66"
+        "tag": "v0.2.3",
+        "commit": "fdebd773753682e168af47a1d2ffc1da47e1ce49"
       },
       "collection2": {
         "git": "https://github.com/aldeed/meteor-collection2.git",
-        "tag": "v0.3.7",
-        "commit": "4c6c2dfd87af8cda321c80e1baea72842ad5c542"
+        "tag": "v0.3.11",
+        "commit": "7e970671305657678e8508d8107d5e6c5e158559"
       },
       "autoform": {
         "git": "https://github.com/aldeed/meteor-autoform.git",
-        "tag": "v0.4.14",
-        "commit": "bd256edffecae7152a2d4644dbaba092ed5f3ad3"
+        "tag": "v0.6.1",
+        "commit": "5c0f36950c7ca91e91d4917a1b4209495151bf1b"
       },
       "roles": {
         "git": "https://github.com/alanning/meteor-roles.git",
-        "tag": "v1.2.6",
-        "commit": "f2a9058281f8f2fe028767841d7445aadd6893cf"
+        "tag": "v1.2.8",
+        "commit": "68844ba216c348d332bdb840825850f497f515bb"
       },
       "collection-helpers": {
         "git": "https://github.com/dburles/meteor-collection-helpers.git",
-        "tag": "v0.2.3",
-        "commit": "52c4c692421acea557fb329f43f65ed11b4832df"
+        "tag": "v0.2.4",
+        "commit": "e10ac53aa03e9656ee8ecaff7b9054dcb3a8a791"
       },
       "font-awesome-4-less": {
         "git": "https://github.com/svub/fontawesome4-less.git",
-        "tag": "v4.0.3.2",
-        "commit": "f269e4e2cfa03b292452b658fdf50afb02a9f14c"
+        "tag": "v4.3.7",
+        "commit": "21f60350cd238fb7053132f42409a3090f76939e"
+      },
+      "blaze-layout": {
+        "git": "https://github.com/EventedMind/blaze-layout.git",
+        "tag": "v0.2.2",
+        "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
       },
       "simple-schema": {
         "git": "https://github.com/aldeed/meteor-simple-schema.git",
-        "tag": "v0.2.37",
-        "commit": "4531fc43dea7bab04e4647e9820fa52631408909"
+        "tag": "v0.2.46",
+        "commit": "30b5d3e08433fbbfe49f09845559bf3ca0ab9101"
       },
       "moment": {
         "git": "https://github.com/acreeger/meteor-moment.git",
