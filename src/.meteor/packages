@@ -8,7 +8,6 @@ insecure
 less
 jquery
 iron-router
-coffeescript
 accounts-base
 bootstrap3-less
 flash-messages

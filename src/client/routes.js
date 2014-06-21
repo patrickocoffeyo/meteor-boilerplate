@@ -1,2 +1,3 @@
-Router.configure
+Router.configure({
   layoutTemplate: 'layoutMain'
+});
