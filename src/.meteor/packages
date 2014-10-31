@@ -8,4 +8,5 @@ autopublish
 insecure
 iron:router
 aldeed:collection2
+dburles:collection-helpers
 
