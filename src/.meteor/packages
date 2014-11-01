@@ -12,7 +12,5 @@ dburles:collection-helpers
 alanning:roles
 particle4dev:sass
 underscore
-preserve-inputs
 jquery
 accounts-base
-

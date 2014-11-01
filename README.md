@@ -31,7 +31,6 @@ Brings sass to your meteor application using node-sass.
 meteor-boilerplate adds these meteor core packages by default:
 
  - insecure
- - preserve-inputs
  - jquery
  - accounts-base
  - underscore
