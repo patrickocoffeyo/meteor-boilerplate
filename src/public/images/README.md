@@ -1,2 +1,2 @@
-#Image Directory
-Add all images served by your application to this folder
+### Images Folder
+Stick all of your publically acessable images in this folder. :
