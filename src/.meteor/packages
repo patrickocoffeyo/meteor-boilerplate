@@ -10,4 +10,5 @@ iron:router
 aldeed:collection2
 dburles:collection-helpers
 alanning:roles
+particle4dev:sass
 

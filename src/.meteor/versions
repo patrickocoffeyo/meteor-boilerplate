@@ -49,6 +49,7 @@ mongo-livedata@1.0.6
 mongo@1.0.8
 observe-sequence@1.0.3
 ordered-dict@1.0.1
+particle4dev:sass@1.0.0
 random@1.0.1
 reactive-dict@1.0.4
 reactive-var@1.0.3
