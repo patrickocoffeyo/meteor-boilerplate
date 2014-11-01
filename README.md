@@ -3,6 +3,8 @@ meteor-boilerplate
 
 This is a starting point for Meteor-based applications. It includes some useful packages, organization techniques to ensure that your codebase is stays mantainable and easy to understand.
 
+A very simple example of a meteor app built from this boilerplate is [OnTask](https://github.com/patrickocoffeyo/ontask).
+
 ##Packages
 Here's a list of packages installed by default.
 
@@ -33,6 +35,9 @@ meteor-boilerplate adds these meteor core packages by default:
  - jquery
  - accounts-base
  - underscore
+
+##Deployment with Docker
+This package includes a basic dockerfile for deploying built versions of your application. More instructions and development on this feature to come.
 
 ##Folder Structure
 The <code>/client</code>, <code>/server</code>, and <code>/lib</code> folders provide some basic app structure that I've found to be useful:
