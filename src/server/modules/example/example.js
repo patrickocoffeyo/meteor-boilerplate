@@ -1,6 +1,7 @@
 Meteor.startup(function() {
-  return Examples.allow({
+  Examples.allow({
     insert: function(userId, example) {
+      console.log(userId);
       return true;
     },
     update: function(userId, example) {
