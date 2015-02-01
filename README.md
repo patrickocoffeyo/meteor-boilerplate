@@ -1,7 +1,7 @@
 meteor-boilerplate
 ==================
 
-This is a starting point for Meteor-based applications. It includes some useful packages, organization techniques to ensure that your codebase is stays mantainable and easy to understand.
+This is a starting point for Meteor-based applications. It includes some useful packages, organization techniques to ensure that your codebase is stays mantainable and easy to understand. It also contains a gulp-based coding standards sniffer to ensure code quality.
 
 A very simple example of a meteor app built from this boilerplate is [OnTask](https://github.com/patrickocoffeyo/ontask).
 
@@ -37,6 +37,9 @@ meteor-boilerplate adds these meteor core packages by default:
 
 ##Deployment with Docker
 This package includes a basic dockerfile for deploying built versions of your application. More instructions and development on this feature to come.
+
+##Coding Standards
+This boilerplate includes a `gulpfile.js` that includes a `cs` task that runs jscs and jshint on your codebase. All you have to do is run `gulp cs` in the project root, and you'll get a full report on all the coding standards issues in your project.
 
 ##Folder Structure
 The <code>/client</code>, <code>/server</code>, and <code>/lib</code> folders provide some basic app structure that I've found to be useful:
