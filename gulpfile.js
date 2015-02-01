@@ -33,8 +33,7 @@ gulp.task('lintjson', function () {
 
 /**
  * @task JavaScript lint.
- *   Runs JSCS and JSLint on module, theme, and gulp files. Excludes all
- *   minified JavaScript files.
+ *   Runs JSCS and JSLint on server, client, lib, and gulp files.
  */
 gulp.task('lintjs', function () {
   return gulp.src([
@@ -46,4 +45,22 @@ gulp.task('lintjs', function () {
   .pipe(jshint())
   .pipe(jshint.reporter('default'))
   .pipe(jscs());
+});
+
+/**
+ * @task JavaScript/JSON watch.
+ *   Watches changes on relevant js and json files and reports accordingly.
+ */
+gulp.task('watch', function () {
+  gulp.watch([
+    'gulpfile.js',
+    'src/**/*.js',
+    '!src/.meteor/**/*.js',
+    '!src/packages/**/*.js'
+  ], ['lintjs']);
+
+  gulp.watch([
+    '.jscsrc',
+    '.jshintrc'
+  ], ['lintjson']);
 });
