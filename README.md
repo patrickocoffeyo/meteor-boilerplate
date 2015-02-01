@@ -38,8 +38,17 @@ meteor-boilerplate adds these meteor core packages by default:
 ##Deployment with Docker
 This package includes a basic dockerfile for deploying built versions of your application. More instructions and development on this feature to come.
 
-##Coding Standards
-This boilerplate includes a `gulpfile.js` that includes a `cs` task that runs jscs and jshint on your codebase. All you have to do is run `gulp cs` in the project root, and you'll get a full report on all the coding standards issues in your project.
+## Coding Standards
+This project contains multiple tools for enforcing coding standards and checking for errors within the codebase. The standards are defined in the `.jscsrc` and `.jshintrc` files in the project root.
+
+### Installation
+
+* Change directory to the crowd.work directory, like: `cd /path/to/project`
+* Run `npm install` to retrieve dependencies.
+
+### Checking
+
+To check your local codebase, run `gulp cs` from a console in the project root. An error report, if any, will be generated in the console.
 
 ##Folder Structure
 The <code>/client</code>, <code>/server</code>, and <code>/lib</code> folders provide some basic app structure that I've found to be useful:
