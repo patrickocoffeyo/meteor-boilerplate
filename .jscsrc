@@ -1,0 +1,13 @@
+{
+  "validateIndentation":2,
+  "disallowTrailingWhitespace": true,
+  "disallowTrailingComma": true,
+  "disallowNewlineBeforeBlockStatements": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "requireCommaBeforeLineBreak": true,
+  "requireSpaceBeforeBinaryOperators": true,
+  "requireSpaceAfterBinaryOperators": true,
+  "disallowSpaceAfterPrefixUnaryOperators": true,
+  "disallowSpacesInsideObjectBrackets": true,
+  "disallowSpacesInsideArrayBrackets": true
+}

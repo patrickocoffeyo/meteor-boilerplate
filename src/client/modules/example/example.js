@@ -1,3 +1,9 @@
+/**
+ * @file
+ * Defines '/' route.
+ */
+/* globals Router, Meteor, Examples */
+
 Router.route('/', {
   // Wait until subscription has been created and the client has data.
   waitOn: function () {

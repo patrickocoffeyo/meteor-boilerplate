@@ -1,3 +1,9 @@
+/**
+ * @file
+ * Defines 'Examples' collections and helpers.
+ */
+/* globals Examples:true, Mongo */
+
 // Declare 'Examples' collection.
 Examples = new Mongo.Collection('example');
 
@@ -13,6 +19,6 @@ Examples.attachSchema({
 // Add helpers to Examples collection object.
 Examples.helpers({
   titleShort: function() {
-    return this.title.substring(0, 50)
+    return this.title.substring(0, 50);
   }
 });

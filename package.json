@@ -1,0 +1,18 @@
+{
+  "name": "meteor-boilerplate",
+  "description": "Example Meteor based application that defines good structure patterns and coding standards.",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/patrickocoffeyo/meteor-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:patrickocoffeyo/meteor-boilerplate.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-jscs": "^1.3.1",
+    "gulp-jshint": "^1.6.2"
+  }
+}

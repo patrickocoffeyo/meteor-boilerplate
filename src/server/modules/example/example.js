@@ -1,7 +1,12 @@
+/**
+ * @file
+ * Define allow and publish functions for Examples collection.
+ */
+/* globals Meteor, Examples */
+
 Meteor.startup(function() {
   Examples.allow({
     insert: function(userId, example) {
-      console.log(userId);
       return true;
     },
     update: function(userId, example) {
