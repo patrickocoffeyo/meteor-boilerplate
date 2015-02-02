@@ -43,7 +43,7 @@ This project contains multiple tools for enforcing coding standards and checking
 
 ### Installation
 
-* Change directory to the crowd.work directory, like: `cd /path/to/project`
+* Change directory to the root directory of the boilerplate (Not Meteor's root), like: `cd /path/to/project`
 * Run `npm install` to retrieve dependencies.
 
 ### Checking
